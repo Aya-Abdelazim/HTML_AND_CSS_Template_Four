@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Framework File -->
+  <link rel="stylesheet" href="css/framework.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="css/dash.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <title>Files</title>
+</head>
+
+<body>
+  <div class="page d-flex">
+    <!-- Start Sidebar -->
+    <div class="sidebar p-20 b-white p-rel ">
+      <h3 class="mt-0 txt-c p-rel">Elzero</h3>
+      <ul>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span class="ml-10">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="settings.html">
+            <i class="fa-sharp fa-solid fa-gear fa-fw"></i>
+            <span class="ml-10">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span class="ml-10">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="projects.html">
+            <i class="fa-sharp fa-solid fa-diagram-project fa-fw"></i>
+            <span class="ml-10">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span class="ml-10">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="friends.html">
+            <i class="fa-solid fa-users fa-fw"></i>
+            <span class="ml-10">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span class="ml-10">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex al-c fs-14 c-black p-10 rad-6 mb-5" href="plans.html">
+            <i class="fa-sharp fa-solid fa-ruler-combined fa-fw"></i>
+            <span class="ml-10">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End Sidebar -->
+    <!-- Start Content Page-->
+    <div class="content bg-f1f5f9">
+      <div class="head btw-flex p-15 b-white">
+        <div class="search p-rel">
+          <input type="search" name="search" placeholder="Type A Keyword" id="">
+        </div>
+        <div class="icon btw-flex p-rel">
+          <i class="fa-regular fa-bell fa-lg"></i>
+          <img src="images/avatar.png" alt="">
+        </div>
+      </div>
+      <h1 class="m-20 p-rel">Files</h1>
+      <div class="files-page d-flex gap m-20">
+
+        <div class="file-state b-white rad-10 p-20">
+          <h2 class="mb-20">Files Statistics</h2>
+          <div class="bord d-flex al-c rad-6 p-10 mb-15">
+            <i class="fa-regular fa-file-pdf c-blue p-10 fs-13 mr-10 pdf"></i>
+            <div>
+              <span class="d-block fs-13">PDF Files</span>
+              <span class="c-gray d-block mt-5 fs-13">130</span>
+            </div>
+            <div class="ml-auto fs-13 c-gray">6.5GB</div>
+          </div>
+
+          <div class="bord d-flex al-c rad-6 p-10 mb-15">
+            <i class="fa-regular fa-image c-green p-10 fs-13 mr-10 pdf"></i>
+            <div>
+              <span class="d-block fs-13">images</span>
+              <span class="c-gray d-block mt-5 fs-13">115 files</span>
+            </div>
+            <div class="ml-auto fs-13 c-gray">3.5GB</div>
+          </div>
+
+          <div class="bord d-flex al-c rad-6 p-10 mb-15">
+            <i class="fa-regular fa-file-word p-10 fs-13 mr-10 pdf"></i>
+            <div>
+              <span class="d-block fs-13">word files</span>
+              <span class="c-gray d-block mt-5 fs-13">110 files</span>
+            </div>
+            <div class="ml-auto fs-13 c-gray">3.2GB</div>
+          </div>
+
+          <div class="bord d-flex al-c rad-6 p-10 mb-15">
+            <i class="fa-solid fa-file-csv  c-orange p-10 fs-13 mr-10 pdf"></i>
+            <div>
+              <span class="d-block fs-13">CSV files</span>
+              <span class="c-gray d-block mt-5 fs-13">99 files</span>
+            </div>
+            <div class="ml-auto fs-13 c-gray">2.9GB</div>
+          </div>
+          <a href="#" class="d-block c-white bg-blue rad-6 fs-14"><i
+              class="fa-solid fa-angles-up mr-10 fs-13"></i>upload</a>
+        </div>
+
+        <div class="box-file d-grid gap">
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/pdf.svg" alt="">
+              <span class="d-block mb-15">my-life.pdf</span>
+            </div>
+            <p class="c-gray pb-20">Elzero</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>20/06/2020</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/avi.svg" alt="">
+              <span class="d-block mb-15">my-life.avi</span>
+            </div>
+            <p class="c-gray pb-20">admin</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>12.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/eps.svg" alt="">
+              <span class="d-block mb-15">my-life.eps</span>
+            </div>
+            <p class="c-gray pb-20">uploader</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>2.7MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/psd.svg" alt="">
+              <span class="d-block mb-15">my-life.psd</span>
+            </div>
+            <p class="c-gray pb-20">osama</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>15.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/psd.svg" alt="">
+              <span class="d-block mb-15">my-life.psd</span>
+            </div>
+            <p class="c-gray pb-20">osama</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>15.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/pdf.svg" alt="">
+              <span class="d-block mb-15">my-life.pdf</span>
+            </div>
+            <p class="c-gray pb-20">Elzero</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>20/06/2020</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/avi.svg" alt="">
+              <span class="d-block mb-15">my-life.avi</span>
+            </div>
+            <p class="c-gray pb-20">admin</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>12.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/eps.svg" alt="">
+              <span class="d-block mb-15">my-life.eps</span>
+            </div>
+            <p class="c-gray pb-20">uploader</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>2.7MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/psd.svg" alt="">
+              <span class="d-block mb-15">my-life.psd</span>
+            </div>
+            <p class="c-gray pb-20">osama</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>15.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/psd.svg" alt="">
+              <span class="d-block mb-15">my-life.psd</span>
+            </div>
+            <p class="c-gray pb-20">osama</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>15.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/dll.svg" alt="">
+              <span class="d-block mb-15">my-life.dll</span>
+            </div>
+            <p class="c-gray pb-20">coder</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/png.svg" alt="">
+              <span class="d-block mb-15">my-life.png</span>
+            </div>
+            <p class="c-gray pb-20">designer</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>1.1MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/pdf.svg" alt="">
+              <span class="d-block mb-15">my-life.pdf</span>
+            </div>
+            <p class="c-gray pb-20">Elzero</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>20/06/2020</span>
+              <span>5.5MB</span>
+            </div>
+          </div>
+          <div class="file b-white rad-10 p-15 p-rel">
+            <i class="fa-solid fa-download c-gray"></i>
+            <div class="info-file txt-c">
+              <img src="images/avi.svg" alt="">
+              <span class="d-block mb-15">my-life.avi</span>
+            </div>
+            <p class="c-gray pb-20">admin</p>
+            <div class="btw-flex c-gray mt-15">
+              <span>16/05/2021</span>
+              <span>12.5MB</span>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <!-- End Content Page-->
+  </div>
+</body>
+
+</html>
